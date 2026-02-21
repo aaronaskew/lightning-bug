@@ -1,1 +1,1 @@
-# lightningbug
+# lightning-bug
