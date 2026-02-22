@@ -6,3 +6,5 @@
 [node name="Bug" type="Sprite2D" unique_id=1985953759]
 texture = ExtResource("1_f31lg")
 script = ExtResource("2_sp1hu")
+metadata/_edit_vertical_guides_ = [360.0]
+metadata/_edit_horizontal_guides_ = [640.0]

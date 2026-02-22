@@ -1,8 +1,13 @@
 [gd_scene format=3 uid="uid://ccr1k0klxvyau"]
 
 [ext_resource type="PackedScene" uid="uid://dyuaxxnigrxy6" path="res://scenes/bug.tscn" id="1_o5qli"]
+[ext_resource type="AudioStream" uid="uid://rtceyxofpeg0" path="res://assets/audio/crickets-at-night-raw-sound.ogg" id="2_0wfyh"]
 
 [node name="Node2D" type="Node2D" unique_id=817683770]
 
 [node name="Bug" parent="." unique_id=1985953759 instance=ExtResource("1_o5qli")]
 position = Vector2(374, 602)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1939734207]
+stream = ExtResource("2_0wfyh")
+autoplay = true
